@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/Mat1az/challenge.145",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
